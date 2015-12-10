@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Smart school</string>
+    <string name="floating_hint_tag_id">Tag ID Value</string>
+    <string name="floating_hint_student_name">Student Name</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

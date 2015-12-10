@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  tools:context=".MainActivity" >
+	<group
+		android:checkableBehavior="single" >
+		<item
+			android:id="@+id/mainMenuItem"
+			android:checked="true"
+			android:icon="@drawable/main"
+			android:title="Main" />
+		<item
+			android:id="@+id/registerStudentMenuItem"
+			android:icon="@drawable/register"
+			android:title="Register Student" />
+		<item
+			android:id="@+id/studentListMenuItem"
+			android:icon="@drawable/list"
+			android:title="Attendacne Status" />
+	</group>
+</menu>

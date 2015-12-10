@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal" >
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp" >
+		<android.support.v7.widget.AppCompatEditText
+            android:id="@+id/tagIDEditText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/floating_hint_tag_id" />
+	</android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp" >
+		<android.support.v7.widget.AppCompatEditText
+            android:id="@+id/studentNameEditText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/floating_hint_student_name" />
+	</android.support.design.widget.TextInputLayout>
+	<Button
+        android:id="@+id/registerButton"
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+        android:text="REGISTER" />
+	<TextView
+		android:layout_marginTop="10dp"
+		android:id="@+id/messageTextView"
+		android:textSize="20dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</LinearLayout>
