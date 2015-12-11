@@ -14,5 +14,4 @@ public interface StudentListInterface {
             @Query("date") String date,
             Callback<List<StudentListData>> callback
     );
-
 }
